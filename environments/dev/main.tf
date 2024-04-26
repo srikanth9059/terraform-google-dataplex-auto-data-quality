@@ -14,7 +14,7 @@
 
 module "deploy-dev" {
   source                 = "../../modules/deploy"
-  project_id             = "PROJECT_ID"
+  project_id             = "gcp-accelerator-380712"
   data_quality_spec_file = "rules/orders.dev.yaml"
   environment            = "dev"
 }
